@@ -1,0 +1,23 @@
+:root{
+  --boardEdge : min( 30vh , 30vw )
+}
+body{
+  color: whitesmoke ;
+  background-color: black ;
+}
+table{
+  border-collapse: collapse ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+}
+th{
+  width: var(--boardEdge) ;
+  border: 0.25rem solid whitesmoke ;
+  font-size: calc( 0.9 * var(--boardEdge) ) ;
+  padding: 0px ;
+  cursor: pointer;
+}
+tr{
+  height: var(--boardEdge) ;
+}
